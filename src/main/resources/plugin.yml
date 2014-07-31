@@ -1,0 +1,10 @@
+name: SaoGPlugin
+main: nu.saog.saogplugin.SaoGPlugin
+version: 0.1
+
+commands:
+   saog:
+      description: This is a demo command.
+      usage: /saog [player]
+      permission: <plugin name>.saog
+      permission-message: You don't have <permission>
